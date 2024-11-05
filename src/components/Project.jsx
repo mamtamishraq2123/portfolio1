@@ -14,7 +14,7 @@ export default function Project() {
       </div>
       <div>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 p-5 '>
-          <div className='sm:max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2x1 hover:animate-pulse'>
+          <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2x1 hover:animate-pulse'>
             <div className='md:flex'>
            <div className='p-8'>
                   <div className='uppercase tracking-wide text-sm to-indigo-500 font-semibold'>
@@ -55,7 +55,7 @@ export default function Project() {
 
         </div>
         <hr/>
-        <div className='grid grid-cols-2 gap-5 p-5'>
+        <div className='grid grid-cols-2 sm:grid-cols-2 gap-5 p-5'>
           <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2x1 hover:animate-pulse'>
             <div className='md:flex'>
            <div className='p-8'>
